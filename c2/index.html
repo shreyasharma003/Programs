@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web20 C2</title>
+    <style>
+        /* Write all the necessery css here  */
+       #top{
+       
+        width: 100%;
+        
+       }
+
+       #top>h1{
+        text-align: center;
+        font-size: 50px;
+       }
+
+       #first{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        width: 2000px;
+       }
+
+       #mid{
+        width: 100%;
+       }
+
+       #second{
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        /* margin-left: 35px; */
+       }
+
+       #third{
+     
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        width: 100%;
+        justify-content: space-evenly;
+        /* margin-left: 40px; */
+       }
+
+       .women{
+        margin-left: 60px;
+        margin-bottom: 0px;
+        height: 300px;
+        width: 300px;
+       
+        text-align: center;
+       }
+
+       .women>img{
+        width: 300px;
+        height: 280px;
+       }
+
+       .women>h2{
+        font-size: 30px;
+       }
+
+
+       #mid{
+        margin-top: 100px;
+       }
+
+       #mid>h1{
+        margin-left: 190px;
+        font-size: 50px;
+       }
+
+
+       .offer>img{
+        width: 200px;
+        height: 300px;
+        margin-left: 50px;
+       }
+
+       #bottom>h1{
+        text-align: center;
+        font-size: 50px;
+       }
+
+       .girl{
+        text-align: center;
+        font-size: 30px;
+       }
+       
+       .girl>h2{
+        background-color: rgb(227, 227, 61);
+        margin-top: 0px;
+        width: 600px;
+        margin-left: 80px;
+       }
+
+
+        /* Medium screens */
+      @media all and (min-width: 401px) and (max-width: 800px) {
+
+        #top{
+            width: 300%;
+        }
+
+        #top>#first{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: space-evenly;
+            margin-left: 100px;
+        }
+
+        #second{
+            width: 300%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            justify-content: center;
+            
+        }
+
+        #second>.offer{
+          
+            width: 25%;
+            text-align: center;
+            margin-left: 30%;
+            
+            
+        }
+
+        .offer>img{
+            width: 250%;
+        }
+
+        #bottom{
+            width: 300%;
+        }
+
+        #bottom>#third{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .girl>h2{
+            margin-left: 22%;
+        }
+        
+      }
+
+
+      /* Small screens */
+      @media all and (min-width: 100px) and (max-width: 400px) {
+
+        #top{
+            width: 1550px;
+        }
+        #first{
+            margin-top: 100px;
+            margin-left: 200px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: space-around;
+            gap: 0px;
+            width: 1530px;
+            height: 1500px;
+        }
+
+        #mid{
+            width: 1550px;
+        }
+
+        #mid>#second{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: space-evenly;
+            gap: 10px;
+            
+        }
+
+        .offer{
+          
+            width: 500px;
+            margin-left: 180px;
+        }
+
+        .offer>img{
+            text-align: center; 
+            margin-left: 100px ;
+        }
+
+        #bottom{
+            width: 100%;
+        }
+
+        #bottom>#third{
+            display: block;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .girl>img{
+            width: 1500px;
+        }
+
+        .girl>h2{
+            width: 1500px;
+            margin-left: 0px;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <div id="top">
+        <h1>Choose Your Store</h1>
+        <div id="first">
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <div class="women">
+                <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize" alt="Women">
+                <h2>Women</h2>
+            </div>
+            <!-- 6 cards will go inside here  -->
+        </div>
+    </div>
+
+    <div id="mid">
+        <h1>Hard to Resist Deals</h1>
+        <div id="second">
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <div class="offer">
+                <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize" alt="offer">
+            </div>
+            <!-- 8 cards will go inside here  -->
+        </div>
+    </div>
+
+    <div id="bottom">
+        <h1>Super Saving Products</h1>
+        <div id="third">
+
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <div class="girl">
+                <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize" alt="girl">
+                <h2>Min 40% OFF</h2>
+            </div>
+            <!-- 6 cards will go inside here  -->
+        </div>
+    </div>
+</body>
+</html>
